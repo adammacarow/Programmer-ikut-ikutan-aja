@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#car-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#car-list li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#car-list li:hover {
+    background: #eaeaea;
+}
+
+#car-details {
+    margin-top: 20px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}

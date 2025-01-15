@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <h1>Carz Showcase</h1>
+    </header>
+    <main>
+        <div id="car-list">
+            <h2>Available Cars</h2>
+            <ul>
+                <li onclick="showDetails('car1')">Tesla Model S</li>
+                <li onclick="showDetails('car2')">Ford Mustang</li>
+                <li onclick="showDetails('car3')">Chevrolet Camaro</li>
+            </ul>
+        </div>
+        <div id="car-details" style="display: none;">
+            <h2>Car Details</h2>
+            <p id="details"></p>
+            <button onclick="hideDetails()">Close</button>
+        </div>
+    </main>
+    <script src="1.js"></script>
+</body>
+</html>
